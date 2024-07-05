@@ -77,6 +77,8 @@ class Bot(Client):
             for message in messages:
                 yield message
                 current += 1
+
+
 Bot().run()
 
 
