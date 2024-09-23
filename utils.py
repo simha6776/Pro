@@ -304,8 +304,8 @@ def get_time(seconds):
     return result
     
 async def get_shortlink(link):
-    SHORT_API =
-    SHORT_URL =
+    SHORT_API = "3e2c0a75d062e5bb8976ddd106824d49a7b7ecf4"
+    SHORT_URL =  "seturl.in"
     url = f'{SHORT_URL}/api'
     params = {'api': SHORT_API, 'url': link}
     try:
